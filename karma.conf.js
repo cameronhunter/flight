@@ -20,6 +20,9 @@ module.exports = function (config) {
       'bower_components/es5-shim/es5-shim.js',
       'bower_components/es5-shim/es5-sham.js',
       'bower_components/jquery/jquery.js',
+
+      'test/no-conflict.js',
+
       'build/flight.js',
 
       // hack to load RequireJS after the shim libs
