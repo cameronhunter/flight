@@ -150,7 +150,6 @@ define(['lib/component'], function (defineComponent) {
       instance.on(document, 'foo', spy);
       instance.trigger('foo', data);
       var args = spy.mostRecentCall.args;
-      expect(args[0]).toEqual(jasmine.any($.Event));
       expect(args[1]).toEqual(data);
     });
 
@@ -161,7 +160,6 @@ define(['lib/component'], function (defineComponent) {
       instance.on(document, 'foo', spy);
       instance.trigger('foo', undefined);
       var args = spy.mostRecentCall.args;
-      expect(args[0]).toEqual(jasmine.any($.Event));
       expect(args[1]).not.toBeDefined();
     });
 
