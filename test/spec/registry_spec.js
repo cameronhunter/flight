@@ -2,6 +2,8 @@
 
 define(['lib/component', 'lib/registry'], function (defineComponent, registry) {
 
+  var $ = jQuery.noConflict();
+
   var Component = (function () {
     function testComponent() {
     }

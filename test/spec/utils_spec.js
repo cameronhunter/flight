@@ -2,6 +2,8 @@
 
 define(['lib/component', 'lib/utils'], function (defineComponent, utils) {
 
+  var $ = jQuery.noConflict();
+
   describe('(Core) utils', function () {
 
     describe('toArray()', function () {

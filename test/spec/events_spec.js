@@ -2,6 +2,8 @@
 
 define(['lib/component'], function (defineComponent) {
 
+  var $ = jQuery.noConflict();
+
   describe("(Core) events", function () {
     var Component = (function () {
       function testComponent() {

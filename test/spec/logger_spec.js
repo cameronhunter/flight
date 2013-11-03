@@ -2,6 +2,8 @@
 
 define(['lib/component', 'lib/debug'], function(defineComponent, debug) {
 
+  var $ = jQuery.noConflict();
+
   var instance;
   var Component;
   var div = $('<div class="myDiv"></div>').appendTo('body')[0];
